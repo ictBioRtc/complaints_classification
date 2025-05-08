@@ -29,12 +29,12 @@ This workshop guides you through training and using a BERT model for text classi
 
 2. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/ictBioRtc/complaints_classification.git
    ```
 
 3. Navigate to the project directory:
    ```bash
-   cd [repository-name]
+   cd complaints_classification
    ```
 
 4. Install dependencies:
