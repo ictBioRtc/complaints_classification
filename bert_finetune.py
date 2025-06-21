@@ -239,7 +239,7 @@ def main():
         learning_rate=args.learning_rate,
         logging_dir=str(output_dir / "logs"),
         logging_steps=args.logging_steps,
-        evaluation_strategy="steps",
+        eval_strategy="steps",
         eval_steps=args.eval_steps,
         save_steps=args.save_steps,
         save_total_limit=2,
